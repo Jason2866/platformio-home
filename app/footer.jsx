@@ -70,7 +70,7 @@ class AppFooter extends React.Component {
           <li>
             <a
               onClick={() =>
-                this.props.osOpenUrl('https://github.com/platformio/platformio-core')
+                this.props.osOpenUrl('https://github.com/pioarduino/platformio-core')
               }
             >
               PlatformIO Core
@@ -90,15 +90,15 @@ class AppFooter extends React.Component {
         <ul className="list-inline">
           <li>Powered by</li>
           <li>
-            <a onClick={() => this.props.osOpenUrl('https://platformio.org')}>
+            <a onClick={() => this.props.osOpenUrl('https://github.com/pioarduino')}>
               <img
-                src={require('./workspace/platformio/platformio_logo.png').default}
+                src={require('./workspace/platformio/pioarduino_logo.png').default}
                 height="38"
               />
             </a>
           </li>
           <li className="pio-company-text">
-            <a onClick={() => this.props.osOpenUrl('https://platformio.org')}>
+            <a onClick={() => this.props.osOpenUrl('https://github.com/pioarduino')}>
               <h3>
                 PlatformIO <small>Enterprise</small>
               </h3>
