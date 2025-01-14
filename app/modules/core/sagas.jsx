@@ -137,7 +137,7 @@ function* watchNotifyError() {
           type="danger"
           onClick={() =>
             _openUrl(
-              `https://github.com/platformio/platformio-home/issues/new?${qs.stringify({
+              `https://github.com/pioarduino/platformio-home/issues/new?${qs.stringify({
                 title,
                 body: description,
               })}`
@@ -204,7 +204,7 @@ function* watchOSRequests() {
         switch (action.type) {
           case actions.OS_OPEN_URL:
             const url = new URL(action.url, true);
-            url.query.utm_source = 'platformio';
+            url.query.utm_source = 'pioarduino';
             url.query.utm_medium = 'piohome';
 
             if (action.url.startsWith('http') && !inIframe()) {
@@ -257,7 +257,6 @@ function* watchRequestContent() {
   const crossDomains = [
     'api.github.com',
     'raw.githubusercontent.com',
-    'platformio.org',
   ];
   yield takeEvery(
     actions.REQUEST_CONTENT,
