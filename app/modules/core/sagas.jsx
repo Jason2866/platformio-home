@@ -254,10 +254,7 @@ function* watchOSRequests() {
 }
 
 function* watchRequestContent() {
-  const crossDomains = [
-    'api.github.com',
-    'raw.githubusercontent.com',
-  ];
+  const crossDomains = ['api.github.com', 'raw.githubusercontent.com'];
   yield takeEvery(
     actions.REQUEST_CONTENT,
     function* ({ uri, data, headers, cacheValid }) {

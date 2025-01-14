@@ -99,9 +99,7 @@ class AppFooter extends React.Component {
           </li>
           <li className="pio-company-text">
             <a onClick={() => this.props.osOpenUrl('https://github.com/pioarduino')}>
-              <h3>
-                pioarduino
-              </h3>
+              <h3>pioarduino</h3>
             </a>
           </li>
         </ul>
