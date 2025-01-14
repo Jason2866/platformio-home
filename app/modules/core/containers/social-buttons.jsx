@@ -31,32 +31,6 @@ class SocialButtons extends React.Component {
     return (
       <Button.Group className="social-buttons">
         <Button
-          icon="twitter"
-          title="Follow us on Twitter"
-          onClick={() => this.props.osOpenUrl(workspaceSettings.getUrl('twitter'))}
-        >
-          Follow Us
-        </Button>
-        {workspaceSettings.getUrl('facebook') ? (
-          <Button
-            icon="facebook"
-            title="Follow us on Facebook"
-            onClick={() => this.props.osOpenUrl(workspaceSettings.getUrl('facebook'))}
-          ></Button>
-        ) : null}
-        {workspaceSettings.getUrl('weibo') ? (
-          <Button
-            icon="weibo"
-            title="Follow us on Weibo"
-            onClick={() => this.props.osOpenUrl(workspaceSettings.getUrl('weibo'))}
-          ></Button>
-        ) : null}
-        <Button
-          icon="linkedin"
-          title="Follow us on LinkedIn"
-          onClick={() => this.props.osOpenUrl(workspaceSettings.getUrl('linkedin'))}
-        ></Button>
-        <Button
           icon="github"
           title="Give Us a star on GitHub"
           onClick={() => this.props.osOpenUrl(workspaceSettings.getUrl('github'))}
