@@ -1,9 +1,10 @@
-# PlatformIO Home
+# pioarduino Home
 
-A frontend for [PlatformIO Core](http://docs.platformio.org/en/latest/core.html).
+A frontend for [pioarduino](https://github.com/pioarduino/platformio-core) with VSC
 
-To build:
+To build with VSC devcontainer
 `npm install -g yarn`
+`yarn install`
 `npm run build`
 
 See package.json under "scripts"
