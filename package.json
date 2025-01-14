@@ -151,16 +151,6 @@
     }
   },
   "workspaces": {
-    "platformio": {},
-    "aceinna": {
-      "themes": {
-        "light": {
-          "@primary-color": "#0C7F7B"
-        },
-        "dark": {
-          "@primary-color": "#0C7F7B"
-        }
-      }
-    }
+    "platformio": {}
   }
 }

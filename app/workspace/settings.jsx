@@ -20,7 +20,6 @@ import React from 'react';
 
 const workspaces = {
   platformio: require('./platformio/index').default,
-  aceinna: require('./aceinna/index').default,
 };
 
 const customWorkspaceName = getQueryVariable('workspace');
