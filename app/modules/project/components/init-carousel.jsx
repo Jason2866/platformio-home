@@ -116,7 +116,7 @@ export default class ProjectInitCarousel extends React.Component {
             description={
               <div>
                 <div className="block">
-                  PlatformIO automatically detects upload port by default. You can
+                  pioarduino automatically detects upload port by default. You can
                   configure a custom port using <code>upload_port</code> option in{' '}
                   <b>platformio.ini</b>:
                 </div>

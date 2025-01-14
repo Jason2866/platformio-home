@@ -35,7 +35,7 @@ class AppFooter extends React.Component {
           <div className="block">{this.renderQuickLinks()}</div>
           {workspaceSettings.get('name') === 'platformio'
             ? this.renderPIOCoreBanner()
-            : this.renderPoweredByPlatformIO()}
+            : this.renderPoweredBypioarduino()}
         </center>
       </Layout.Footer>
     );
@@ -84,9 +84,9 @@ class AppFooter extends React.Component {
     );
   }
 
-  renderPoweredByPlatformIO() {
+  renderPoweredBypioarduino() {
     return (
-      <div className="powered-by-platformio">
+      <div className="powered-by-pioarduino">
         <ul className="list-inline">
           <li>Powered by</li>
           <li>
@@ -100,7 +100,7 @@ class AppFooter extends React.Component {
           <li className="pio-company-text">
             <a onClick={() => this.props.osOpenUrl('https://github.com/pioarduino')}>
               <h3>
-                PlatformIO <small>Enterprise</small>
+                pioarduino
               </h3>
             </a>
           </li>
