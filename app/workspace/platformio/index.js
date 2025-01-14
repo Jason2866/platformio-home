@@ -15,12 +15,9 @@
  */
 
 const urls = {
-  home: 'https://platformio.org',
-  twitter: 'https://twitter.com/PlatformIO_Org',
-  facebook: 'https://www.facebook.com/platformio',
-  linkedin: 'https://www.linkedin.com/company/platformio',
-  github: 'https://github.com/platformio',
-  community: 'https://community.platformio.org',
+  home: 'https://github.com/pioarduino',
+  github: 'https://github.com/pioarduino',
+  community: 'https://discord.gg/Nutz9crnZr',
 };
 
 const messages = {
@@ -28,18 +25,14 @@ const messages = {
 };
 
 export default {
-  name: 'platformio',
-  title: 'PlatformIO',
-  companyLogoSrc: require('./platformio_logo.png').default,
+  name: 'pioarduino',
+  title: 'pioarduino',
+  companyLogoSrc: require('./pioarduino_logo.png').default,
   showPIOVersions: true,
   footerQuickLinks: [
     { title: 'Web', url: urls.home },
     { title: 'Open Source', url: urls.github },
-    { title: 'Get Started', url: 'http://docs.platformio.org/page/ide/pioide.html' },
-    { title: 'Docs', url: 'http://docs.platformio.org' },
-    { title: 'News', url: urls.twitter },
     { title: 'Community', url: urls.community },
-    { title: 'Contact Us', url: 'https://platformio.org/contact' },
   ],
   urls,
   messages,
